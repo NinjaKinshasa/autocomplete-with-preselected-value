@@ -40,6 +40,9 @@ function UserForm()
       <AutocompleteWrapper 
         selected={group}
         queryfn={getOptions}
+        primary='group_id'
+        keyname='group_name'
+        label='label'
       />
     </div>
     
